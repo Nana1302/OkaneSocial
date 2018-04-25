@@ -1,0 +1,8 @@
+{
+  "name": "Okane-Social",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
