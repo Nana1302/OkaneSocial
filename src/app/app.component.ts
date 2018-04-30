@@ -3,20 +3,21 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 
-import { HomePage } from '../pages/home/home';
+import { WelcomePage } from '../pages/welcome/welcome';
+import { MainPage } from '../pages/main/main';
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-  rootPage:any = HomePage;
+  rootPage:any = WelcomePage;
 
   pages: Array<{title: string, component: any,}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
 
     this.pages = [
-      { title: 'Payment', component: HomePage },
+      { title: 'Payment', component: MainPage },
       // { title: 'Your Trades', component: HomePage },
       // { title: 'Rewards', component: HomePage },
       // { title: 'Help', component: HomePage },
