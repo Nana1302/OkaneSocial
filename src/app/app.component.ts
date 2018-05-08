@@ -5,12 +5,18 @@ import { Nav, Platform } from 'ionic-angular';
 
 import { WelcomePage } from '../pages/welcome/welcome';
 import { MainPage } from '../pages/main/main';
+import { ChoosePlanPage } from '../pages/choose-plan/choose-plan';
+import { WalkthroughPage } from '../pages/walkthrough/walkthrough';
+import { SplashPage } from '../pages/splash/splash';
+import { EditAccountPage } from '../pages/edit-account/edit-account';
+import { ExchangeDetailsPage } from '../pages/exchange-details/exchange-details';
+
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-  rootPage:any = WelcomePage;
+  rootPage:any = WalkthroughPage;
 
   pages: Array<{title: string, component: any,}>;
 
