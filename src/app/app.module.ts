@@ -18,6 +18,7 @@ import { HelpPage } from '../pages/help/help';
 import { SearchPage } from '../pages/search/search';
 import { SettingsPage } from '../pages/settings/settings';
 import { YourExchangePage } from '../pages/your-exchange/your-exchange';
+import { MainSearchGeoTagNotifiPage } from '../pages/main-search-geo-tag-notifi/main-search-geo-tag-notifi';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { YourExchangePage } from '../pages/your-exchange/your-exchange';
     HelpPage,
     SearchPage,
     SettingsPage,
-    YourExchangePage
+    YourExchangePage,
+    MainSearchGeoTagNotifiPage
     
   ],
   imports: [
@@ -56,7 +58,8 @@ import { YourExchangePage } from '../pages/your-exchange/your-exchange';
     HelpPage,
     SearchPage,
     SettingsPage,
-    YourExchangePage
+    YourExchangePage,
+    MainSearchGeoTagNotifiPage
   ],
   providers: [
     StatusBar,
