@@ -1,0 +1,41 @@
+page-chat {
+    ion-footer {
+        background: black;
+        height: 70px;
+        ion-icon {
+            color: white;
+        }
+    }
+
+    // ion-content {
+    //     background-size: cover;
+    //     background: #e5e5e5;
+    // }
+   
+
+    img {
+        height: 30px; 
+        width: 30px;
+        margin-top: 20%;
+        
+    }
+  
+}
+
+.input {
+    border-radius: 3px;
+    // box-shadow: vertical offset gray;
+}
+
+.camera {
+    height: 50px;
+    width: 50px;
+}
+
+.message {
+    border-radius: 4px;
+}
+
+.nana {
+    width: 20em;
+}
