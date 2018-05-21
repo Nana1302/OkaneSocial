@@ -20,6 +20,8 @@ import { SettingsPage } from '../pages/settings/settings';
 import { YourExchangePage } from '../pages/your-exchange/your-exchange';
 import { MainSearchGeoTagNotifiPage } from '../pages/main-search-geo-tag-notifi/main-search-geo-tag-notifi';
 import { ChatPage } from '../pages/chat/chat';
+import { HistoryPage } from '../pages/history/history';
+import { PopoverComponent } from '../components/popover/popover';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ChatPage } from '../pages/chat/chat';
     SettingsPage,
     YourExchangePage,
     MainSearchGeoTagNotifiPage,
-    ChatPage
+    ChatPage,
+    HistoryPage,
+    PopoverComponent
     
   ],
   imports: [
@@ -62,7 +66,9 @@ import { ChatPage } from '../pages/chat/chat';
     SettingsPage,
     YourExchangePage,
     MainSearchGeoTagNotifiPage,
-    ChatPage
+    ChatPage,
+    HistoryPage,
+    PopoverComponent 
   ],
   providers: [
     StatusBar,

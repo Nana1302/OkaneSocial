@@ -18,13 +18,14 @@ import { SettingsPage } from '../pages/settings/settings';
 import { YourExchangePage } from '../pages/your-exchange/your-exchange';
 import { MainSearchGeoTagNotifiPage } from '../pages/main-search-geo-tag-notifi/main-search-geo-tag-notifi';
 import { ChatPage } from '../pages/chat/chat';
+import { HistoryPage } from '../pages/history/history';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-  rootPage:any = ChatPage;
+  rootPage:any = HistoryPage;
 
   pages: Array<{title: string, component: any,}>;
 
