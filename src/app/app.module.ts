@@ -22,6 +22,7 @@ import { MainSearchGeoTagNotifiPage } from '../pages/main-search-geo-tag-notifi/
 import { ChatPage } from '../pages/chat/chat';
 import { HistoryPage } from '../pages/history/history';
 import { PopoverComponent } from '../components/popover/popover';
+import { MerchantDetailsPage } from '../pages/merchant-details/merchant-details';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { PopoverComponent } from '../components/popover/popover';
     MainSearchGeoTagNotifiPage,
     ChatPage,
     HistoryPage,
-    PopoverComponent
+    PopoverComponent,
+    MerchantDetailsPage
     
   ],
   imports: [
@@ -68,7 +70,8 @@ import { PopoverComponent } from '../components/popover/popover';
     MainSearchGeoTagNotifiPage,
     ChatPage,
     HistoryPage,
-    PopoverComponent 
+    PopoverComponent,
+    MerchantDetailsPage
   ],
   providers: [
     StatusBar,
