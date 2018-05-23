@@ -23,6 +23,8 @@ import { ChatPage } from '../pages/chat/chat';
 import { HistoryPage } from '../pages/history/history';
 import { PopoverComponent } from '../components/popover/popover';
 import { MerchantDetailsPage } from '../pages/merchant-details/merchant-details';
+import { NotificationsPage } from '../pages/notifications/notifications';
+import { Popover1Component } from '../components/popover1/popover1';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { MerchantDetailsPage } from '../pages/merchant-details/merchant-details'
     ChatPage,
     HistoryPage,
     PopoverComponent,
-    MerchantDetailsPage
+    MerchantDetailsPage,
+    NotificationsPage,
+    Popover1Component
     
   ],
   imports: [
@@ -71,7 +75,9 @@ import { MerchantDetailsPage } from '../pages/merchant-details/merchant-details'
     ChatPage,
     HistoryPage,
     PopoverComponent,
-    MerchantDetailsPage
+    MerchantDetailsPage,
+    NotificationsPage,
+    Popover1Component
   ],
   providers: [
     StatusBar,

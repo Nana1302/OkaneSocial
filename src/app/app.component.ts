@@ -20,13 +20,14 @@ import { MainSearchGeoTagNotifiPage } from '../pages/main-search-geo-tag-notifi/
 import { ChatPage } from '../pages/chat/chat';
 import { HistoryPage } from '../pages/history/history';
 import { MerchantDetailsPage } from '../pages/merchant-details/merchant-details';
+import { NotificationsPage } from '../pages/notifications/notifications';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-  rootPage:any = MerchantDetailsPage;
+  rootPage:any = NotificationsPage;
 
   pages: Array<{title: string, component: any,}>;
 
