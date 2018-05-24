@@ -25,6 +25,7 @@ import { PopoverComponent } from '../components/popover/popover';
 import { MerchantDetailsPage } from '../pages/merchant-details/merchant-details';
 import { NotificationsPage } from '../pages/notifications/notifications';
 import { Popover1Component } from '../components/popover1/popover1';
+import { DetailTransactionPage } from '../pages/detail-transaction/detail-transaction';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { Popover1Component } from '../components/popover1/popover1';
     PopoverComponent,
     MerchantDetailsPage,
     NotificationsPage,
-    Popover1Component
+    Popover1Component,
+    DetailTransactionPage
     
   ],
   imports: [
@@ -77,7 +79,8 @@ import { Popover1Component } from '../components/popover1/popover1';
     PopoverComponent,
     MerchantDetailsPage,
     NotificationsPage,
-    Popover1Component
+    Popover1Component,
+    DetailTransactionPage
   ],
   providers: [
     StatusBar,

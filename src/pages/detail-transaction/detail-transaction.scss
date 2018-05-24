@@ -1,0 +1,45 @@
+page-detail-transaction {
+
+    ion-button {
+        font-size: 15px;
+    }
+
+    ion-item {
+        height: 50px;
+        width: 250px;
+    }
+}
+
+.top {
+    position: absolute;
+    top: 11%;
+    left: 8%;
+}
+
+.center {
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    font-size: 12px;
+}
+
+.bottom {
+    position: absolute;
+    top: 22%;
+    left: 12%;
+    font-size: 12px;
+}
+
+.bottom-right {
+    position: absolute;
+    top: 28%;
+    left: 58%;
+    color: gray;
+    font-size: 11px;
+}
+
+.yes {
+    background-color: rgba(235, 227, 227, 0.527); 
+    height: 60px; 
+    margin-top: 50%;
+}

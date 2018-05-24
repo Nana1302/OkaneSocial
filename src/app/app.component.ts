@@ -21,13 +21,14 @@ import { ChatPage } from '../pages/chat/chat';
 import { HistoryPage } from '../pages/history/history';
 import { MerchantDetailsPage } from '../pages/merchant-details/merchant-details';
 import { NotificationsPage } from '../pages/notifications/notifications';
+import { DetailTransactionPage } from '../pages/detail-transaction/detail-transaction';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-  rootPage:any = NotificationsPage;
+  rootPage:any = DetailTransactionPage;
 
   pages: Array<{title: string, component: any,}>;
 
