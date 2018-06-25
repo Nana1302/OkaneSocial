@@ -3,8 +3,14 @@
   {{text}}
 </div> -->
 
-<ion-list padding class="style">
-  <!-- <div style="color: black;"> -->
+<div>
+   <button ion-button clear style="float: left; font-size: 12px; margin-left: 10%; font-weight: bold;" color="dark">PAST</button>
+   <button ion-button clear (click)="pushUpcoming()" style="float: right; font-size: 12px; margin-right: 10%;" color="dark">UPCOMING</button>
+</div>
+
+<div style="clear:both"></div>
+
+<!-- <ion-list padding class="style">
   <ion-item>
     <p style="float:right; color: black;">18 Apr 2018 12:30pm</p>
   </ion-item>
@@ -43,5 +49,38 @@
     <p style="float: left; color: black;">SGD 1,917.73</p>
     <img src="../assets/imgs/sgd.png" style="float: right; width: 18px; height: 12px;">
   </ion-item>
-  <!-- </div> -->
-</ion-list>
+</ion-list> -->
+
+<!-- <div>
+   <button ion-button clear style="float: left">PAST</button>
+   <button ion-button clear (click)="pushUpcoming()" style="float: right">UPCOMING</button>
+</div> -->
+
+<div>
+  <p style="color: gray; text-align: right;">18 Apr 2018 12:30pm</p>
+  <img src="../assets/imgs/transactioncard.png" style="margin-top:-2%;">
+
+  <div class="top">
+    <h6>GAYA STREET, KOTA KINABALU</h6>
+  </div>
+
+  <div class="center">
+    <p>USD 1000.00</p>
+  </div>
+
+  <div class="bottom">
+    <p>MYR 3968.00</p>
+  </div>
+
+  <div class="bottom-right">
+    <p>Transaction Succeed</p>
+  </div>
+</div>
+
+<div style="clear: both;"></div>
+
+  <!-- <ion-tabs tabsPlacement="top">
+    <ion-tab [root]="tab1Root" tabTitle="PAST"></ion-tab>
+    <ion-tab [root]="tab2Root" tabTitle="UPCOMING"></ion-tab>
+  </ion-tabs> -->
+

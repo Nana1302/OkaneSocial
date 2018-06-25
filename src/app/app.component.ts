@@ -22,42 +22,43 @@ import { HistoryPage } from '../pages/history/history';
 import { MerchantDetailsPage } from '../pages/merchant-details/merchant-details';
 import { NotificationsPage } from '../pages/notifications/notifications';
 import { DetailTransactionPage } from '../pages/detail-transaction/detail-transaction';
+import { UpcomingPage } from '../pages/upcoming/upcoming';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-  rootPage:any = DetailTransactionPage;
+  rootPage: any= HistoryPage;
 
-  pages: Array<{title: string, component: any,}>;
+  // pages: Array<{title: string, component: any,}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
 
-    this.pages = [
-      { title: 'Payment', component: MainPage },
+    // this.pages = [
+    //   { title: 'Payment', component: MainPage },
       // { title: 'Your Trades', component: HomePage },
       // { title: 'Rewards', component: HomePage },
       // { title: 'Help', component: HomePage },
       // { title: 'Settings', component: HomePage },
       // { title: 'Legal', component: HomePage }
    
-    ];
+    // ];
 
   }
 
-  // initializeApp() {
-  //   this.platform.ready().then(() => {
-  //     // Okay, so the platform is ready and our plugins are available.
-  //     // Here you can do any higher level native things you might need.
-  //     this.statusBar.styleDefault();
-  //     this.splashScreen.hide();
-  //     });
+  initializeApp() {
+    this.platform.ready().then(() => {
+      // Okay, so the platform is ready and our plugins are available.
+      // Here you can do any higher level native things you might need.
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
+      });
+  }
+
+  // openPage(page) {
+  //   this.nav.setRoot(page.component);
   // }
-
-  openPage(page) {
-    this.nav.setRoot(page.component);
-  }
  
 }
 

@@ -3,8 +3,34 @@ popover {
     .style {
         color: black;
     }
-
-
 }
+
+.top {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -5%;
+}
+
+.center {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: -4%;
+    font-size: 12px;
+}
+
+.bottom {
+    position: absolute;
+    margin-top: 26%;
+    margin-left: -4%;
+    font-size: 12px;
+}
+
+.bottom-right {
+    position: absolute;
+    margin-top: 33%;
+    margin-left: -1%;
+    font-size: 9px;
+}
+
 
 
