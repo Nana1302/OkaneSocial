@@ -27,6 +27,8 @@ import { NotificationsPage } from '../pages/notifications/notifications';
 import { Popover1Component } from '../components/popover1/popover1';
 import { DetailTransactionPage } from '../pages/detail-transaction/detail-transaction';
 import { UpcomingPage } from '../pages/upcoming/upcoming';
+import { Help2Page } from '../pages/help2/help2';
+import { ReceiptPage } from '../pages/receipt/receipt';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { UpcomingPage } from '../pages/upcoming/upcoming';
     NotificationsPage,
     Popover1Component,
     DetailTransactionPage,
-    UpcomingPage
+    UpcomingPage,
+    Help2Page,
+    ReceiptPage
     
   ],
   imports: [
@@ -83,7 +87,9 @@ import { UpcomingPage } from '../pages/upcoming/upcoming';
     NotificationsPage,
     Popover1Component,
     DetailTransactionPage,
-    UpcomingPage
+    UpcomingPage,
+    Help2Page,
+    ReceiptPage
   ],
   providers: [
     StatusBar,

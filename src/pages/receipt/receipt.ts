@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Help2Page } from '../help2/help2';
-import { ReceiptPage } from '../receipt/receipt';
 
 /**
- * Generated class for the DetailTransactionPage page.
+ * Generated class for the ReceiptPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,18 +10,16 @@ import { ReceiptPage } from '../receipt/receipt';
 
 @IonicPage()
 @Component({
-  selector: 'page-detail-transaction',
-  templateUrl: 'detail-transaction.html',
+  selector: 'page-receipt',
+  templateUrl: 'receipt.html',
 })
-export class DetailTransactionPage {
+export class ReceiptPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DetailTransactionPage');
+    console.log('ionViewDidLoad ReceiptPage');
   }
 
-  tab1Root = Help2Page;
-  tab2Root = ReceiptPage;
 }

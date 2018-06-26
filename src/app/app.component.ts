@@ -29,7 +29,7 @@ import { UpcomingPage } from '../pages/upcoming/upcoming';
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-  rootPage: any= HistoryPage;
+  rootPage: any= DetailTransactionPage;
 
   // pages: Array<{title: string, component: any,}>;
 

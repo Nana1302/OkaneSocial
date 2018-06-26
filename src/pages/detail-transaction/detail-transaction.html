@@ -8,22 +8,22 @@
     </ion-title>
   </ion-toolbar>
   <div style="height: 130px; background-color: black;" >
-    <ion-avatar item start style="position: absolute; left: 38%; top: 33%;">
+    <ion-avatar item start style="margin-left: 38%;">
       <img src="../assets/imgs/sis1.jpg" style="width:100px; height: 100px; border-radius: 50%">
-    </ion-avatar><br>
-    <p style="color: white; position: absolute; left: 42%; bottom: -3%;">NANA 4.13</p>
-</div>
-</ion-header>
-
-<ion-content padding>
-  <p style="color: gray; text-align: right; margin-top: -2%">18 Apr 2018 12:30pm</p>
-  <img src="../assets/imgs/transactioncard.png" style="margin-top:-2%;">
-
-  <div class="top">
-    <h6>GAYA STREET, KOTA KINABALU</h6>
+    </ion-avatar>
+    <p style="color: white; margin-left: 42%; margin-top: 0%;">NANA 4.13</p>
   </div>
 
-  <div class="center">
+  <div style="height: 170px;">
+    <p style="color: gray; text-align: right; margin-right: 6%">18 Apr 2018 12:30pm</p>
+    <img src="../assets/imgs/transactioncard.png" style="margin-top:-2%; margin-left: 5%; width: 90%;">
+  </div>
+
+  <!-- <div class="top">  
+    <h6>GAYA STREET, KOTA KINABALU</h6>
+  </div> -->
+
+  <!-- <div class="center">
     <p>USD 1000.00</p>
   </div>
 
@@ -33,32 +33,16 @@
 
   <div class="bottom-right">
     <p>Transaction Succeed</p>
-  </div>
+  </div>  -->
 
-</ion-content>
-
-<div style="clear: both; height: 100px;"></div>
+</ion-header>
 
 <ion-content>
-  <div class="yes">
-    <button ion-button clear (click) = "anna()" color="dark">HELP</button>
-    <button ion-button clear (click) = "ana()" color="dark">RECEIPT</button>
-  </div> 
 
-  <ion-item style="width: 95%;">
-    <p style="color: black;">Review of my Value & Rate</p>
-  </ion-item>
+  <ion-tabs tabsPlacement="top" style="background-color:rgb(230, 227, 227);">
+    <ion-tab [root]="tab1Root" tabTitle="HELP" style="background-color:rgb(230, 227, 227);"></ion-tab>
+    <ion-tab [root]="tab2Root" tabTitle="RECEIPT" style="background-color:rgb(230, 227, 227);"></ion-tab>
+  </ion-tabs>
 
-  <ion-item style="width: 95%;">
-    <p style="color: black;">Problem with Cancellation Fee</p>
-  </ion-item>
-
-  <ion-item style="width: 95%;">
-    <p style="color: black;">Okane User no show</p>
-  </ion-item>
-
-  <ion-item style="width: 95%;">
-    <p style="color: black;">Others</p>
-  </ion-item>
 </ion-content>
 
